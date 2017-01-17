@@ -6,6 +6,7 @@ Plug 'elmcast/elm-vim'
 Plug 'plasticboy/vim-markdown'
 Plug 'itchyny/lightline.vim'
 Plug 'cakebaker/scss-syntax.vim'
+Plug 'elixir-lang/vim-elixir'
 "   Git wrapper   "
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
