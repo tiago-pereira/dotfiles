@@ -7,6 +7,7 @@ Plug 'plasticboy/vim-markdown'
 Plug 'itchyny/lightline.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'elixir-lang/vim-elixir'
+Plug 'maxmellon/vim-jsx-pretty'
 "   Git wrapper   "
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
@@ -56,3 +57,9 @@ let g:lightline = {
 if !has('gui_running')
   set t_Co=256
 endif
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => elm-vim
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+
