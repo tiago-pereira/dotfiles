@@ -2,4 +2,4 @@
 
 `xrandr -S` for resolution
 
-`xrdb ~/.Xresources
+`xrdb ~/.Xresources` load urxvt config
