@@ -1,0 +1,1 @@
+`pavucontrol` for audio
