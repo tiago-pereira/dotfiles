@@ -8,6 +8,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'ervandew/supertab'
 "   Git wrapper   "
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
