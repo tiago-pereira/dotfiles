@@ -8,6 +8,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'ervandew/supertab'
+Plug 'kien/ctrlp.vim'
 "   Git wrapper   "
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
@@ -30,10 +32,6 @@ map <leader>nf :NERDTreeFind<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:lightline = {
       \ 'colorscheme': 'wombat',
-      \ }
-
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
       \ 'active': {
       \   'left': [ ['mode', 'paste'],
       \             ['fugitive', 'readonly', 'filename', 'modified'] ],
@@ -49,8 +47,8 @@ let g:lightline = {
       \   'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
       \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
       \ },
-      \ 'separator': { 'left': ' ', 'right': ' ' },
-      \ 'subseparator': { 'left': ' ', 'right': ' ' }
+      \ 'separator': { 'left': '', 'right': '' },
+      \ 'subseparator': { 'left': '|', 'right': '|' }
       \ }
 
 
@@ -62,4 +60,3 @@ endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 " => elm-vim
 """"""""""""""""""""""""""""""""""""""""""""""""""""
-
