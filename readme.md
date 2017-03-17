@@ -3,6 +3,7 @@
 
 ### pcmanfm 
 `pcmanfm` opens file manager
+
 `pcmanfm --desktop` opens desktop
 
 ### xrandr
@@ -16,8 +17,11 @@
 
 ### i3
 `i3-dmenu-desktop`
+
 `i3status`
+
 `i3lock`
+
 `i3-scrot` for screenshots
 
 ### ranger
@@ -28,3 +32,8 @@
 
 ### vlc
 `vlc` media player
+
+### feh
+`feh --bg-scale <wallpaper loc>` sets the wallpaper
+
+`ssh ~/.fehbg` executes the last feh command (set in .xsession)
