@@ -7,14 +7,31 @@ Plug 'plasticboy/vim-markdown'
 Plug 'itchyny/lightline.vim'
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'elixir-lang/vim-elixir'
-Plug 'maxmellon/vim-jsx-pretty'
+Plug 'mxw/vim-jsx'
 Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
+Plug 'vim-scripts/vim-auto-save'
+
 "   Git wrapper   "
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 
 call plug#end()
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-jsx 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:jsx_ext_required = 0
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Auto-save 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" enable on startup
+let g:auto_save = 1
+let g:auto_save_in_insert_mode = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerd Tree
@@ -56,7 +73,3 @@ if !has('gui_running')
   set t_Co=256
 endif
 
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => elm-vim
-""""""""""""""""""""""""""""""""""""""""""""""""""""
