@@ -153,10 +153,11 @@ bar {
    font pango:DejaVu Sans Mono, Icons 10 
 
    colors  {
+      background #424242
       #type              #border #bg     #font
-      focused_workspace  #008fff #007fff #ffffff
+      focused_workspace  #333333 #2E7D32 #ffffff
       active_workspace   #333333 #5f676a #ffffff
-      inactive_workspace #333333 #222222 #88888888
+      inactive_workspace #333333 #757575 #eeeeee
       urgent_workspace   #aa0000 #990000 #ffffff
    }
         status_command i3status
@@ -164,3 +165,11 @@ bar {
 
 
 hide_edge_borders both
+
+client.focused          #333333 #2E7D32 #ffffff #00DA8E
+client.focused_inactive #333333 #5F676A #ffffff #484e50
+client.unfocused        #000000 #757575 #ffffff #292d2e
+client.urgent           #C10004 #900000 #ffffff #900000
+
+font pango: Dejavu Sans Mono 10 
+
