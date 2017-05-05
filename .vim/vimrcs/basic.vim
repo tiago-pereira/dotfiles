@@ -81,6 +81,7 @@ source $VIMRUNTIME/menu.vim
 set wildmenu
 
 " Shows line number"
+set relativenumber
 set number
 
 " Ignore compiled files
