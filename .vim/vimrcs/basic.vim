@@ -58,12 +58,18 @@ set autoread
 let mapleader = ","
 let g:mapleader = ","
 
+" edit vim
+nmap <leader>evp :vsp ~\Projetos\dotfiles\.vim\vimrcs\plugins_config.vim<cr>
+nmap <leader>eve :vsp ~\Projetos\dotfiles\.vim\vimrcs\extended.vim<cr>
+nmap <leader>evf :vsp ~\Projetos\dotfiles\.vim\vimrcs\filetype.vim<cr>
+nmap <leader>evb :vsp ~\Projetos\dotfiles\.vim\vimrcs\basic.vim<cr>
+
 " Fast saving
 nmap <leader>w :w!<cr>
 
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
-command W w !sudo tee % > /dev/null
+" command W w !sudo tee % > /dev/null
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
