@@ -11,6 +11,7 @@ Plug 'mxw/vim-jsx'
 Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-scripts/vim-auto-save'
+Plug 'fatih/vim-go'
 
 "   Git wrapper   "
 Plug 'tpope/vim-fugitive'
