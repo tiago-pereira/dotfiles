@@ -179,11 +179,7 @@ endif
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
-<<<<<<< HEAD
 " Use Unix as the standard file type
-=======
-" Use Unix as the standard file type
->>>>>>> 714ed6acd1d3f5355f9ac1afe0845b206c3d10d4
 set ffs=unix,dos,mac
 
 
