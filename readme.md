@@ -33,6 +33,9 @@
 ### vlc
 `vlc` media player
 
+### nitrogen
+`nitrogen` wallpaper stuff
+
 ### feh
 `feh --bg-scale <wallpaper loc>` sets the wallpaper
 
