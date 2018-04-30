@@ -37,3 +37,11 @@
 `feh --bg-scale <wallpaper loc>` sets the wallpaper
 
 `ssh ~/.fehbg` executes the last feh command (set in .xsession)
+
+### arandr
+`arandr` handles multi screen
+
+### keyboard
+`keyboardctl -s pt-br` sets keymap to pt-br
+
+
