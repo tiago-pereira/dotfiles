@@ -12,6 +12,7 @@ Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-scripts/vim-auto-save'
 Plug 'fatih/vim-go'
+Plug 'moll/vim-node'
 
 "   Git wrapper   "
 Plug 'tpope/vim-fugitive'
